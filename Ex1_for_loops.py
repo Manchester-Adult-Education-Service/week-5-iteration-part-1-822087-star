@@ -9,6 +9,8 @@
 #     # code that repeats
 #
 # Example (syntax only):
+
+
 # for i in range(5):
 #     print("This will print 5 times")
 #
@@ -33,6 +35,10 @@ print("-------------------------------------------\n"
 #     print("Hello number", i)
 #
 # Write your code below:
+for i in range(5):
+    print("Hello number", i)
+
+
 
 
 # Task 2: Counting with for loops
@@ -52,6 +58,13 @@ print("-------------------------------------------\n"
 #     print(i)
 #
 # Write your code below:
+for i in range(10,1,-1):
+    print(f"Hello toney help me {i}")
+
+for i in range(1,11,1):
+    print(f"my world is different: {i}")
+
+
 
 
 # Task 3: Using for loops with user input
@@ -71,6 +84,11 @@ print("-------------------------------------------\n"
 #     print("This is loop", i + 1)
 #
 # Write your code below:
+
+user_number = input("Enter your number :")
+for i in range(user_number):
+    print("This is looping ", i +1)
+
 
 
 # -------------------------------------------
